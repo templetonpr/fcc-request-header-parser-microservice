@@ -1,5 +1,6 @@
 # Request Header Parser Microservice
 Microservice to parse request headers for Free Code Camp project
+
 ---
 ### Usage
 
@@ -16,5 +17,3 @@ responds with
   "software": your operating system
 }
 ```
-
-/anything/else/ responds with a 404
