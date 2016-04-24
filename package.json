@@ -9,12 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/templetonpr/request-header-parser-microservice.git"
+    "url": "git+https://github.com/templetonpr/fcc-request-header-parser-microservice.git"
   },
   "author": "Patrick Templeton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/templetonpr/request-header-parser-microservice/issues"
+    "url": "https://github.com/templetonpr/fcc-request-header-parser-microservice/issues"
   },
-  "homepage": "https://github.com/templetonpr/request-header-parser-microservice#readme"
+  "homepage": "https://github.com/templetonpr/fcc-request-header-parser-microservice#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

@@ -1,6 +1,5 @@
 "use strict";
 
-let http = require('http');
 let app = require('express')();
 
 app.get('/api/whoami', (req, res) => {
