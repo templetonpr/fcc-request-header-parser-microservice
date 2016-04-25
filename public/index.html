@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FCC Timestamp Microservice</title>
+  <style type="text/css">
+    html {
+      padding: 0 5%;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #000;
+    }
+    pre {
+      color: darkred;
+      font-weight: bold;
+      background-color: #eee;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Request Header Parser Microservice</h1>
+    <p>Microservice to parse request headers</p>
+  </header>
+  <h3>Usage:</h3>
+  <p>Runs on port 8080 by default or PORT env variable if set.</p>
+  <pre>[URL]/api/whoami/</pre>
+  <p>Responds with:</p>
+  <pre>{
+  "ipaddress": your public ip address,
+  "language": your language,
+  "software": your operating system
+}</pre>
+  <br>
+  <p><a href="./api/whoami/">Test link</a></p>
+  <p>Please see <a href='https://github.com/templetonpr/fcc-request-header-parser-microservice'>here</a> for the code and more info.</p>
+</body>
+</html>

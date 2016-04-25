@@ -1,6 +1,14 @@
 "use strict";
 
+let favicon = require('serve-favicon');
 let app = require('express')();
+
+app.use(favicon(__dirname + '/public/favicon.ico'));
+
+app.get("/", (req, res) => {
+  // return instructions page
+  res.sendFile(__dirname + "/public/index.html");
+});
 
 app.get('/api/whoami', (req, res) => {
 
