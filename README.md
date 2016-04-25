@@ -6,6 +6,8 @@ Microservice to parse request headers for Free Code Camp project
 
 Runs on port 8080 by default or PORT env variable if set.
 
+Live version at: https://templetonpr-fcc-header-parser.herokuapp.com/
+
 ```
 /api/whoami/
 ```
